@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Chilo Motors</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script src="/carros/index.js"></script>
+        <script src="/carros/nuevo.js"></script>
+    </head>
+    <body>
+        <div class="about">
+            <header>
+                <nav class="barra">
+                    <a class="logo">
+                        <img src="/carros/img/chilo-motors.png" alt="flor blanca">
+                    </a>
+                    <nav class="letras_hiper">
+                        <a href="#todos">Todos los autos</a>
+                        <a href="#nuevo">Autos nuevos</a>
+                        <a href="#seminuevo">Autos seminuevos</a>
+                        <a href="#mantenimiento">Mantenimiento</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                </nav>
+            </header>
+            <div id="todos" class="all">
+                <h1>Encuentra tu proximo vehículo</h1>
+                <div class="contenedor-busqueda">
+                    <div class="buscar-autos">
+                        <label for="">Categorias de Vehículo</label>
+                        <span>Buscar Autos</span>
+                        <select>
+                            <option value="n">Nuevo</option>
+                            <option value="s">Seminuevo</option>
+                        </select>
+                    </div>
+                    <div class="marca">
+                        <span>Marca</span>
+                        <select>
+                            <option value="toyota">Toyota</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="BMW">BMW</option>
+                        </select>
+                    </div>
+                    <div class="modelo">
+                        <input type="text" placeholder="Modelo"/>
+                    </div>
+                    <div class="palabras-clave">
+                        <span>Palabras clave</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="nuevo">
+            <h1>Autos nuevos</h1>
+            <div class="slider-container">
+                <div class="slide">
+                  <img src="./img/carro1.jpg" alt="" class="slide-img"/>
+                 </div>
+              </div>
+              <div class="BOTONES">
+                <div type="button" class="boton2">Anterior</div>
+                <button type="button" class="boton1">Siguiente</button>
+              </div>
+        </section>
+        <section id="seminuevo">
+            <h1>Autos seminuevos</h1>
+        </section>
+        <section id="contacto">
+            <h1>Contactanos</h1>
+            <h2>¿Quieres vender tu auto?</h2>
+            <p>Nosotros te lo compramos</p>
+        </section>
+    </body>
+    <footer>
+        <p>Chilo Motors</p>
+        <p>&copy; 2023</p>
+        <div id="contenedor-redes"class="contenedor-redes">
+            <a href="">
+                <img src="./img/ig.png"/>
+            </a>
+            <img src="./img/facebook.png" class="margarita-tam">
+        </div>
+    </footer>
+</html>
