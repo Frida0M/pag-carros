@@ -1,4 +1,4 @@
-var imagen=document.querySelector(".slide-img");
+/* var imagen=document.querySelector(".slide-img");
       boton1=document.querySelector(".boton1");
       boton2=document.querySelector(".boton2");
       contador=0;
@@ -32,4 +32,4 @@ var imagen=document.querySelector(".slide-img");
         
         console.log(arreglo[contador]);
         console.log(contador);
-      });
+      }); */
