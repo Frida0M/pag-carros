@@ -185,20 +185,36 @@ img:not(.img) {
     letter-spacing: 2px;
 }
 
-.container{
+.container {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.card{
+.card {
+  position: relative;
   border-radius: 20px;
-  margin-left: 10px;
+  margin: 10px;
   height: 200px;
+  max-width: 300px;
   background-color: aliceblue;
   flex: 1;
   transition: .3s all ease;
 }
 
-.card:hover{
+.card:hover {
   flex: 2;
   background-color: aliceblue;
 }
+
+.card-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-info {
+  opacity: 1;
+}
+
