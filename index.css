@@ -207,11 +207,13 @@ img:not(.img) {
 }
 
 .card-info {
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
   transition: opacity 0.3s ease;
+  background-color: #4a4a4acc;
 }
 
 .card:hover .card-info {
