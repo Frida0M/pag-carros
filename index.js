@@ -4,7 +4,7 @@ window.onload = function() {
   var boton2 = document.querySelector(".boton2");
   var contador = 0;
   boton1.style.display="none";
-  arreglo=["/autos/logo_VW.png", "/autos/logo_NISSAN.png", "/autos/logo_KIA.jpg"]
+  arreglo=["/autos/logo_VW.png", "/autos/logo_NISSAN.png", "/autos/logo_KIA.jpeg"]
   boton1.addEventListener("click", function () {
     imagen.setAttribute("src", arreglo[contador-1]);
     contador--;
