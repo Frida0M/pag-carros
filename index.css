@@ -73,18 +73,19 @@ nav a {
 #nuevo{
   background-color: #011837;
   color: #DCE4FF;
+  padding: 50px;
 }
 #seminuevo{
   background-color: #380727;
   color: #DCE4FF;
+  padding: 50px;
 }
 #contacto{
-  background-color: #033B85;
-  color: #DCE4FF;
+  padding: 50px;
 }
 footer{
   text-align: center;
-  background-color: rgb(62, 0, 83);
+  background-color: #011837;
   color: white;
   padding: 2%;
 }
@@ -231,4 +232,12 @@ main {
 
 .form-contacto{
   padding: 30px;
+  font-size: 1.25rem;
+}
+.enviar-boton{
+  font-size: 1.3rem;
+}
+input{
+  font-size: 1.5rem;
+  margin: 0 5px;
 }
