@@ -37,8 +37,8 @@ p {
 }
 
 .logo {
-  margin-right: 500px;
-
+  margin-right: auto;
+  margin-left: 100px;
 }
 
 .barra{
@@ -97,6 +97,8 @@ nav a {
 }
 footer{
   text-align: center;
+  align-items: center;
+  justify-content: center;
   background-color: #011837;
   color: white;
   padding: 2%;
@@ -259,4 +261,7 @@ input{
   transform: rotate(-20deg);
   margin-top: 40px;
   margin-left: 60px;
+}
+.centrar-p{
+  text-align: center;
 }
