@@ -76,17 +76,18 @@ nav a {
     background-color: #033B85;
 }
 footer{
-    text-align: center;
-    background-color: #011837;
-    color: white;
-    padding: 2%;
+  text-align: center;
+  background-color: rgb(62, 0, 83);
+  color: white;
+  padding: 2%;
 }
-.contenedor-redes img{
-    padding:    10px;
-    height:     30px;
-    width:      30px;
+.contenedor-redes{
+  padding:    10px;
+  height:     30px;
+  width:      30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 img:not(.img) {
     width: 100%;
@@ -134,7 +135,7 @@ img:not(.img) {
     border: 5px solid #138D75;
     width: 100vh;
     margin: 0 auto;
-    height: 40vh;
+    height: 100vh;
     position: relative;
     border-radius: 5px;
     overflow: hidden;/*esco*/
