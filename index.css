@@ -79,6 +79,9 @@ nav a {
   z-index: 99;
   transition: height 200ms ease;
 }
+#empresa{
+  padding: 50px;
+}
 #nuevo{
   background-color: #011837;
   color: #DCE4FF;
@@ -238,14 +241,12 @@ main {
 
 .form-contacto{
   padding: 30px;
-  font-size: 1.25rem;
 }
 .enviar-boton{
-  font-size: 1.3rem;
   background-color: #bed8fb;
 }
 input{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0 5px;
   border-radius: 12px;
 }
