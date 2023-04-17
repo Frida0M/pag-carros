@@ -106,11 +106,8 @@ footer{
   margin-right: auto;
 }
 
-img:not(.img) {
-    width: 100%;
-  }
-  img {
-    display: block;
+img {
+  display: block;
 }
 .boton1,.boton2 {
   text-transform: uppercase;
@@ -125,11 +122,11 @@ img:not(.img) {
 }
 .boton2:hover {
   color: #033B85;
-  background:  HoneyDew;
+  background: #bed8fb;
   }
 .boton1:hover {
   color: #033B85;
-  background:  HoneyDew;
+  background:  #bed8fb;
   }
 /* section */
 .section {
@@ -222,7 +219,7 @@ main {
 }
 
 .card:hover {
-  flex: 2;;
+  flex: 2;
 }
 
 .card-info {
@@ -245,8 +242,20 @@ main {
 }
 .enviar-boton{
   font-size: 1.3rem;
+  background-color: #bed8fb;
 }
 input{
   font-size: 1.5rem;
   margin: 0 5px;
+  border-radius: 12px;
+}
+
+.logo-img img{
+  width: 80px;
+}
+.manitas{
+  height: 3rem;
+  transform: rotate(-20deg);
+  margin-top: 40px;
+  margin-left: 60px;
 }
