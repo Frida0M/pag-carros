@@ -23,6 +23,15 @@ h1{
   font-size: 1.75rem;
 }
 
+p {
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 18px;
+}
+
+
 .logo img {
   height: 80px;
 }
