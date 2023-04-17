@@ -36,7 +36,7 @@ window.onload = function () {
 };
 
 var carrito = [];
-
+var seHaAgregadoBotonPago = false;
 var total = 0;
 
 function agregarAlCarrito(elemento) {
@@ -87,7 +87,30 @@ function actualizarTotal() {
   var totalDOM = document.querySelector("#total");
   totalDOM.textContent = total;
 
+  if (!seHaAgregadoBotonPago) {
+    var pagarBtn = document.createElement("button");
+    pagarBtn.textContent = "Pagar";
+    pagarBtn.addEventListener("click", function() {
+      alert("Pago realizado");
+      carrito = [];
+      actualizarCarrito();
+      actualizarTotal();
+      seHaAgregadoBotonPago = false;
+      var botonPagoContenedor = document.querySelector("#boton-pago-contenedor");
+      botonPagoContenedor.parentNode.removeChild(botonPagoContenedor);
+    });
+
+    var botonPagoContenedor = document.createElement("div");
+    botonPagoContenedor.setAttribute("id", "boton-pago-contenedor");
+    botonPagoContenedor.appendChild(pagarBtn);
+
+    var carritoDOM = document.querySelector("#carrito");
+    carritoDOM.parentNode.appendChild(botonPagoContenedor);
+
+    seHaAgregadoBotonPago = true;
+  }
 }
+
 
 
 
