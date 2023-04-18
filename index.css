@@ -7,11 +7,11 @@
 *{
   text-align: center;
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 body{
   background-color: #DCE4FF;
   color: #475480;
-  font-family:sans-serif;
 }
 header{
   background-color:#011837;
@@ -297,4 +297,13 @@ input{
 }
 .centrar-p{
   text-align: center;
+}
+.carrito-float{
+  color:#475480; 
+  font-size:19px;
+
+}
+#floatdiv{
+  border: #011837 solid 1px;
+  border-radius: 5px;
 }

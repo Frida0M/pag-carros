@@ -4,7 +4,10 @@
   <title>Chilo Motors</title>
   <link rel="stylesheet" href="index.css" />
   <script src="/index.js" async></script>
+  <script src="/nuevo.js" async></script>
   <link rel="shortcut icon" type="image/png" href="./autos/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -60,12 +63,12 @@
   </section>
 
   <div id="floatDiv">
-    <label style="color:#475480; font-size:19px;">Carrito de Compras</label>
+    <label class="carrito-float"><b>Carrito de Compras</b></label>
     <div id="carrito">
       <span>Carrito:</span>
       <ul>
       </ul>
-      <p>Total: $<span id="total"></span></p>
+      <p><b>Total: </b>$<span id="total"></span></p>
     </div>
   </div>
 
@@ -150,8 +153,7 @@
         <div class="card-info">
           <h2>VERSA 2018</h2>
           <p>El Nissan Versa 2018 es un sedán compacto con un diseño elegante, amplio espacio interior y
-            características
-            de tecnología avanzada, equipado con un motor eficiente de 1.6 litros.</p>
+            características de tecnología avanzada, equipado con un motor eficiente de 1.6 litros.</p>
         </div>
         <button class="boton-item" titulo-item="Versa 2018" precio-item="200000"
         onclick="agregarAlCarrito(this)">Agregar al
