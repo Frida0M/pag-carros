@@ -301,9 +301,9 @@ input{
 .carrito-float{
   color:#475480; 
   font-size:19px;
-
 }
 #floatdiv{
   border: #011837 solid 1px;
   border-radius: 5px;
+  padding: 15px;
 }
