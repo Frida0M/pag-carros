@@ -1,0 +1,16 @@
+/* Barra de navegación */
+.navbar{
+    padding: 2rem;
+    background-color: #000970;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-blanco{
+    color: white;
+}
+.formulario-inicio{
+    padding: 250px;
+}
