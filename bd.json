@@ -18,7 +18,7 @@
         "año": 2018,
         "precio": 214999,
         "kilometraje": 76402,
-        "estado": "Taller",
+        "estado": "Vendido",
         "imagen_url": "img/auto2.jpg"
       },
       {
@@ -68,7 +68,7 @@
         "año": 2019,
         "precio": 287999,
         "kilometraje": 50340,
-        "estado": "Taller",
+        "estado": "Vendido",
         "imagen_url": "img/auto7.jpg"
       },
       {
@@ -78,7 +78,7 @@
         "año": 2018,
         "precio": 239999,
         "kilometraje": 85276,
-        "estado": "Taller",
+        "estado": "Vendido",
         "imagen_url": "img/auto8.jpg"
       },
       {
@@ -118,7 +118,7 @@
         "año": 2019,
         "precio": 349999,
         "kilometraje": 41805,
-        "estado": "Taller",
+        "estado": "Vendido",
         "imagen_url": "img/auto12.jpg"
       },
       {
