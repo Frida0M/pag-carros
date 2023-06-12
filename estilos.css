@@ -22,10 +22,21 @@
     margin: 10px 0px 40px 0px;
 }
 
+.container{
+    margin: 10px auto;
+}
+
 .btn{
     width: 100px;
     border-radius: 20px;
     background-color: #2233C5;
     margin: 30px;
     margin-left: 40%;
+}
+
+.btn:hover{
+    background: #19258d;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px  0px 0px #011837;
+    transition: all 300ms;
 }

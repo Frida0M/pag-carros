@@ -1,0 +1,26 @@
+.container h3{
+    text-align: center;
+}
+
+#tarjetas-container{
+    width: 100%;
+    justify-content: center;
+}
+
+.card{
+    height: 280px;
+    margin: 5px auto;
+    padding: 5px;
+    align-items: center;
+    border: 1px solid #d45959;
+}
+
+.card .card-text{
+    margin: 0px auto;
+}
+
+.btn{
+    width: 150px;
+    margin: 10px auto;
+    margin-top: 10px;
+}
