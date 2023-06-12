@@ -24,7 +24,7 @@ document.getElementById('formulario-login').addEventListener('submit', async (e)
 
   if (validarCredenciales(correo, contrasena, empleados)) {
     // Inicio de sesión exitoso
-    console.log('Inicio de sesión exitoso');
+    window.location.href = 'catalogo.html';
   } else {
     // Credenciales incorrectas
     console.log('Credenciales incorrectas');
