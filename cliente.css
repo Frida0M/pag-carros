@@ -1,0 +1,27 @@
+#formulario-cliente{
+    width: 100%;
+    margin: 20px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#formulario-cliente div{
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
+
+.form-label{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.form-control{
+    width: 400px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.input-group-text{
+    margin-right: 5px;
+}

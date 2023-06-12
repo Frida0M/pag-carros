@@ -1,3 +1,12 @@
+
+h1{
+    color: #011837;
+}
+
+h3{
+    color: #141d70;
+}
+
 /* Barra de navegación */
 .navbar{
     padding: 2rem;
@@ -40,3 +49,4 @@
     text-shadow: 1px 1px  0px 0px #011837;
     transition: all 300ms;
 }
+
