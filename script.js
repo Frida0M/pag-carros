@@ -32,9 +32,9 @@ document.getElementById('formulario-login').addEventListener('submit', async (e)
 
   if (validarCredenciales(correo, contrasena, empleados)) {
     // Inicio de sesión exitoso
-    window.location.href = 'catalogo.html';
+    window.location.href = 'index.html';
   } else {
     // Credenciales incorrectas
-    window.location.href = 'index.html';
+    // window.location.href = 'index.html';
   }
 });
