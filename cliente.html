@@ -33,21 +33,21 @@
     <div>
         <h3>Ingresa los datos del nuevo cliente:</h3>
     </div>
-    <form class="row g-3 needs-validation" novalidate>
+    <form class="row g-3 needs-validation" id="formulario-cliente" novalidate>
         <div class="col-md-8">
           <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-          <input type="text" class="form-control" id="validationCustom01" required>
+          <input type="text" class="form-control" id="nombre_cliente" required>
         </div>
         <div class="col-md-5">
           <label for="validationCustomUsername" class="form-label">Correo</label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <input type="text" class="form-control" id="correo_cliente" aria-describedby="inputGroupPrepend" required>
           </div>
         </div>
         <div class="col-md-4">
           <label for="validationCustom03" class="form-label">Teléfono</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
+          <input type="text" class="form-control" id="telefono_cliente" required>
         </div>
         <div class="col-12">
           <button class="btn btn-primary" type="submit">Agregar</button>
