@@ -15,5 +15,9 @@
     padding: 250px;
 }
 .img-index img{
-    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
+}
+.img-index{
+    margin: 10px 0px 40px 0px;
 }
