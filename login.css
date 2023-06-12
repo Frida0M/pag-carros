@@ -1,0 +1,11 @@
+.container{
+    font-weight: bold;
+    width: 60%;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.mb-3 .form-control{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}

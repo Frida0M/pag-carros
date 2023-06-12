@@ -21,3 +21,11 @@
 .img-index{
     margin: 10px 0px 40px 0px;
 }
+
+.btn{
+    width: 100px;
+    border-radius: 20px;
+    background-color: #2233C5;
+    margin: 30px;
+    margin-left: 40%;
+}
