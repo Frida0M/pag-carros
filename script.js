@@ -13,6 +13,11 @@ function validarCredenciales(correo, contrasena, empleados) {
   return false;
 }
 
+function mostrarMensajeError() {
+    const mensajeErrorDiv = document.getElementById('mensaje-error');
+    mensajeErrorDiv.textContent = '¡Credenciales incorrectas! Por favor, verifica tu correo electrónico y contraseña.';
+}
+
 document.getElementById('formulario-login').addEventListener('submit', async (e) => {
   e.preventDefault();
 
@@ -22,11 +27,14 @@ document.getElementById('formulario-login').addEventListener('submit', async (e)
   const datos = await cargarJson();
   const empleados = datos.empleado;
 
+  const mensajeError = document.getElementById('mensaje-error');
+
+
   if (validarCredenciales(correo, contrasena, empleados)) {
     // Inicio de sesión exitoso
     window.location.href = 'catalogo.html';
   } else {
     // Credenciales incorrectas
-    console.log('Credenciales incorrectas');
+    window.location.href = 'index.html';
   }
 });
