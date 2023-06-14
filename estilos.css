@@ -43,6 +43,7 @@ h3{
     width: 100px;
     border-radius: 20px;
     background-color: #2233C5;
+    margin: 20px auto;
 }
 
 .btn:hover{
@@ -52,3 +53,12 @@ h3{
     transition: all 300ms;
 }
 
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    background-color: #EEE;
+    border-radius: 15px;
+    border: 1px solid  #333;
+}
