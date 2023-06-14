@@ -14,38 +14,37 @@
 .col{
     width: 300px;
     height: 200px;
-    margin: 40px auto;
+    margin: 5px auto;
     padding: 0px;
     background-size: cover;
     border-radius: 20px;
     border: 4px solid #D45959;
+    overflow: hidden;
+    background-position: absolute;
 }
 
 .col h3{
     line-height: 200px;
     text-decoration: none;
     background: none;
-    display: none;
 }
-
-.col:hover {
-    background-color: gray ;
-} 
 
 .col:hover h3{
     text-decoration: none;
     color: aliceblue;
+    opacity: 1;
     transition: all 300ms;
 }
 
-.col1{
-    background-image: url(img/cliente.png);
+.frente{
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
-.col2{
-    background-image: url(img/compras.png);
-}
-
-.col3{
-    background-image: url(img/catalogo.png);
+.col:hover div{
+    display: block;
+    background-color: black;
+    opacity: 0.6;
+    transition: all 300ms;
 }

@@ -5,7 +5,17 @@
     padding: 50px;
 }
 
+.mb-3{
+    margin: 0px auto;
+    align-items: center;
+}
+
 .mb-3 .form-control{
     background-color: #EEEEEE;
     border-radius: 20px;
+}
+
+.mb-3 .btn {
+    display: flex;
+    margin: 10px auto;
 }

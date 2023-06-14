@@ -25,3 +25,9 @@
 .input-group-text{
     margin-right: 5px;
 }
+
+.boton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

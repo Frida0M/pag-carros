@@ -3,6 +3,10 @@ h1{
     color: #011837;
 }
 
+h2{
+    color: #29105b;
+}
+
 h3{
     color: #141d70;
 }
@@ -39,8 +43,6 @@ h3{
     width: 100px;
     border-radius: 20px;
     background-color: #2233C5;
-    margin: 30px;
-    margin-left: 40%;
 }
 
 .btn:hover{
