@@ -1,15 +1,18 @@
 .container h3{
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 
 #tarjetas-container{
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
     justify-content: center;
 }
 
 .card{
     width: 300px;
     margin: 5px auto;
+    font-family: 'Quicksand', sans-serif;
     padding: 5px;
     align-items: center;
     border: 1px solid #d45959;
@@ -17,10 +20,12 @@
 
 .card .card-text{
     margin: 0px auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .btn{
     width: 150px;
     margin: 10px auto;
+    font-family: 'Quicksand', sans-serif;
     margin-top: 10px;
 }
